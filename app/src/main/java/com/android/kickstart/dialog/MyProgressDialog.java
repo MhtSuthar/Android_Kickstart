@@ -8,6 +8,8 @@ import android.content.Context;
  */
 public class MyProgressDialog extends ProgressDialog {
 
+    private static final String TAG = "MyProgressDialog";
+
     public MyProgressDialog(Context context, String message, boolean isCancelable) {
         super(context);
         this.setMessage(message);
